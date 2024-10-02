@@ -1,0 +1,40 @@
+.nav-container {
+  background-color: #475569;
+  padding: 12px 70px 1px 70px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 577px) {
+  .nav-container {
+    padding: 12px 40px 1px 40px;
+  }
+}
+.nav-heading {
+  color: #f1f5f9;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0;
+}
+@media screen and (max-width: 577px) {
+  .nav-heading {
+    font-size: 28px;
+  }
+}
+.nav-input-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.input-container {
+  display: flex;
+}
+.nav-input {
+  width: 10px;
+  margin-right: 9px;
+}
+.nav-label {
+  font-size: 13px;
+  font-weight: 600;
+  align-self: center;
+  color: #f1f5f9;
+}
